@@ -1,6 +1,6 @@
 use ("school"); 
 
-/* 
+
 db.getMongo().getDBs()
 db.student.find();
 db.student.find({name:"Ram"});
@@ -18,4 +18,4 @@ db.student.find();
     ])
     db.student.find();
     db.student.find({},{"_id":0,"name":1,"age":1})
-*/
+
