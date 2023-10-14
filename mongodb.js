@@ -9,6 +9,7 @@ db.student.find();
  db.student.insertOne({"name":"Ram","age":24,"city":"Erode","contact":"9736256239"});
  db.student.find();
  db.student.insertOne({"name":"Vishnu","age":24,"city":"Erode","contact":"9736256289","adress":{"street":"kovil Street","pincode":"636002"}});
+ //db.student.insertOne({"name":"Vishnu","age":24,"city":"Erode","contact":"9736256289","adress":{"street":"kovil Street","pincode":"636002"}});
  db.getMongo().getDBs();
  db.getCollectionNames();
  db.student.insertMany([
